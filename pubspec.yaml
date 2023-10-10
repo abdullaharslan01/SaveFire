@@ -1,0 +1,28 @@
+name: savefire
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  curved_labeled_navigation_bar: ^2.0.2
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^16.1.0
+  geolocator: ^10.1.0
+  get: ^4.6.6
+  image_picker: ^1.0.4
+  url_launcher: ^6.1.14
+  webview_flutter: ^4.4.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
